@@ -64,6 +64,11 @@
     font-style: normal;
   }
 
+  /* selects all <p> elements with class="large" */
+p.large {
+  font-size: 200%;
+}
+
   /* paragraph large */
   p.large {
     font-family: 'Times New Roman', Times, serif;
@@ -161,4 +166,19 @@ header p.logo{
 .highlight {
     background-color: #D8415C;
     padding: 0.5rem;
+}
+
+/*css grids*/
+.grid {
+  display:flex;
+  gap: 24px;
+  flex-direction: row;
+}
+
+/*css grid coloumn widths*/
+.grid-col-third{
+  flex-basis: 33.33%;
+}
+.grid-col-twoThirda {
+  flex-basis: 66.66%;
 }

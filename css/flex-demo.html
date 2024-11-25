@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        padding: 1rem;
+        background-color: navy;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+      }
+
+      p.third {
+        flex-basis: 33.33%;
+      }
+
+      p.twoThirds {
+        flex-basis: 66.66%;
+      }
+
+      p {
+        padding: 1rem;
+        margin: 0;
+        background-color: orange red;
+        color: white;
+        border: 2px solid yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <p class="third">About Us</p>
+      <p class="twoThird">More</p>
+    </div>
+    <h1>Larry Ellison</h1>
+  </body>
+</html>
