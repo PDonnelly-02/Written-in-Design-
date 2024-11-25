@@ -182,3 +182,18 @@ header p.logo{
 .grid-col-twoThirda {
   flex-basis: 66.66%;
 }
+
+/*media queries*/
+@media only screen and (max-width: 1060px;) {
+  .container {
+    margin: 0 24px 0 24px;
+  }
+}
+@media only screen and (max-width: 760px;) {
+
+}
+@media only screen and (max-width: 680px;) {
+  .container {
+    margin: 0 16px 0 16px;
+    }
+}
